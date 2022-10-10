@@ -1,0 +1,23 @@
+<div class="container">
+    <table class="highlight">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Tel</th>
+                <th>photo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let c of contacts">
+                <td>{{c.nom}}</td>
+                <td>{{c.prenom}}</td>
+                <td>{{c.email}}</td>
+                <td>{{c.tel}}</td>
+                <td>{{c.photo}}</td>
+            </tr>
+
+        </tbody>
+    </table>
